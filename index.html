@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <!-- stylesheets links for both bootsstrap and normal css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <!-- embedding Font Awesome -->
+  <script src="https://kit.fontawesome.com/10e432d795.js" crossorigin="anonymous"></script>  
+</head>
+
+<body>
+  <!-- Brand showcase/ title section -->
+  <section id="title">
+    <!-- naviagtion bar -->
+    <div class="container-fluid ">
+      <nav class=" navbar navbar-expand-lg ">
+        <span class="navbar-brand">loopstudios</span>
+        <button class="navbar-toggler togglers menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars  hamburger-menu"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">support</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <!-- title section -->
+      <div class="row">
+        <div class="col-lg-6 column">
+        <h1 id=big-heading>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mid section -->
+
+  <section id="mid-section">
+    <div class="row">
+      <div class="col-lg-6 ">
+        <img class="image"src="./images/desktop/image-interactive.jpg" alt="interactive image">
+      </div>
+      <div class="col-lg-6 leader">
+        <h2 class="medium-heading">THE LEADER IN INTERACTIVE VR</h2>
+        <P id="paragraph">Founded in 2011 loop studios has been producing world-class virtual reality project for some of the best companies around the globe. Our award-winning Creations have transformed businesses through digital experiences that bind to their brand.  </P>
+      </div>
+    </div>
+  </section>
+
+  <!-- creations -->
+
+  <section id="creations"> 
+  
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="our-creations">OUR CREATIONS</h2>
+      </div>
+      <div class="col-lg-6 see-all ">
+        <button type="button " class="btn btn-outline-dark btn-sm button ">SEE  ALL</button>
+      </div>  
+    </div>
+  </section>
+  
+  <section id="types_of_games">
+    <div class="row ">
+      <div class=" col-lg-3 col-md-6 game-images ">
+        <picture>
+          <source  media="(max-width:1000px)" srcset="./images/mobile/image-deep-earth.jpg" >
+          <img class="small-image" src="./images/desktop/image-deep-earth.jpg" alt="deep earth">
+        </picture>
+        <div class="text">
+          <h3>
+          DEEP EARTH
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-night-arcade.jpg" >
+          <img class="small-image" src="./images/desktop/image-night-arcade.jpg" alt="arcade">
+        </picture>
+        <div class="text">
+          <h3>
+          NIGHT ARCADE
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-soccer-team.jpg" >
+          <img class="small-image" class="test"src="./images/desktop/image-soccer-team.jpg" alt="soccer-team">
+        </picture>
+        <div class="text">
+          <h3>
+          SOCCER TEAM VR
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-grid.jpg" >
+           <img class="small-image" class="test"src="./images/desktop/image-grid.jpg" alt="the grid">
+        </picture>
+        <div class="text">
+          <h3>
+          THE <br>GRID
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-from-above.jpg" >
+          <img class="small-image" class="test"src="./images/desktop/image-from-above.jpg" alt="from above">
+        </picture>
+        <div class="text">
+          <h3>
+          FROM UP ABOVE VR
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-pocket-borealis.jpg" >
+          <img class="small-image" class="test"src="./images/desktop/image-pocket-borealis.jpg" alt="pocket">
+        </picture>
+        <div class="text">
+          <h3>
+          POCKET BOREALIS
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-curiosity.jpg" >
+          <img class="small-image" class="test"src="./images/desktop/image-curiosity.jpg" alt="curiosity">
+        </picture>
+        <div class="text">
+          <h3>
+          THE CURIOSITY
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 game-images">
+        <picture>
+          <source media="(max-width:1000px)" srcset="./images/mobile/image-fisheye.jpg" >
+          <img class="small-image" class="test"src="./images/desktop/image-fisheye.jpg" alt="fisheye">
+        </picture>
+        <div class="text">
+          <h3>
+         THE FISHEYE
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section id="footer">
+    <div class=" row footer-c">
+      <div class="col-lg-6">
+        <h2 class="footer-heading">loopstudios</h2>
+        <ul>
+          <li>
+            <a class="stubborn" href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+        </div>
+        <div class=" socials col-lg-6">
+          <i class=" social fab fa-facebook-square fa-2x"></i>
+          <i class=" social fab fa-twitter fa-2x"></i>
+          <i class=" social fab fa-pinterest fa-2x"></i>
+          <i class=" social fab fa-instagram fa-2x"></i>
+          <p id="copyright">© 2021 Johnson. All rights reserved</p> 
+        </div>
+    </div>
+  </section>
+  <!-- bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
